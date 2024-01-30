@@ -192,3 +192,13 @@ Este script crea un Dashboard interactivo que permite explorar y comparar la evo
 Se anexan dos opciones adicionales que trabaje previamente:
 1. app_Opción_1
 2. app_Opción_2
+
+Para todos los casos se requiere:
+1. crear un entorno virtual:
+- pip install virtualenv
+- python -m venv venv
+- venv\Scripts\activate
+2. pip install dash pandas plotly
+3. pip install pandas
+4. Ejecutar el script deseado, en este caso: python app_Opción_Final.py
+5. Visualizar en http://127.0.0.1:8050/
